@@ -1,5 +1,5 @@
 # Examples of most used design patterns in JavaScript (TypeScript)
-If you want to try those examples
+If you want to try these examples
 ```
 git clone git@github.com:josefjadrny/patterns-in-js-examples.git
 npm i
