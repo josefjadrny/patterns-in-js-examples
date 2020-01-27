@@ -1,0 +1,23 @@
+{
+  "name": "patterns-in-js-examples",
+  "version": "1.0.0",
+  "description": "Examples of most used design patterns in JavaScript (TypeScript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josefjadrny/patterns-in-js-examples.git"
+  },
+  "author": "bc.josefjadrny@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josefjadrny/patterns-in-js-examples/issues"
+  },
+  "homepage": "https://github.com/josefjadrny/patterns-in-js-examples#readme",
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
