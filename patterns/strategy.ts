@@ -1,22 +1,12 @@
 class Duck {
   flyBehavior: FlyBehavior
 
+  constructor(flyBehavior: FlyBehavior) {
+    this.flyBehavior = flyBehavior
+  }
+
   performFly() {
     this.flyBehavior.fly()
-  }
-}
-
-class MallardDuck extends Duck {
-  constructor() {
-    super()
-    this.flyBehavior = new FlyWithWings()
-  }
-}
-
-class ModelDuck extends Duck {
-  constructor() {
-    super()
-    this.flyBehavior = new FlyNoWay()
   }
 }
 
@@ -36,8 +26,7 @@ class FlyNoWay implements FlyBehavior {
   }
 }
 
-
-const duck = new MallardDuck()
-const anotherDuck = new ModelDuck()
-duck.performFly()
-anotherDuck.performFly()
+const flyingDuck = new Duck(new FlyWithWings())
+const stupidDuck = new Duck(new FlyNoWay())
+flyingDuck.performFly()
+stupidDuck.performFly()
