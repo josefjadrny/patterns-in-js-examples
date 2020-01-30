@@ -9,5 +9,9 @@ ts-node patterns/strategy.ts
 ## Strategy pattern
 [Source code](https://github.com/josefjadrny/patterns-in-js-examples/blob/master/patterns/strategy.ts)
 
+## Observer pattern
+[Source code](https://github.com/josefjadrny/patterns-in-js-examples/blob/master/patterns/observer.ts)
+
+
 ---
 *Inspired by Head First's book - Design Patterns.*
