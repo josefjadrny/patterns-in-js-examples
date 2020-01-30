@@ -11,7 +11,7 @@ class Duck {
 }
 
 interface FlyBehavior {
-  fly()
+  fly(): void
 }
 
 class FlyWithWings implements FlyBehavior {
